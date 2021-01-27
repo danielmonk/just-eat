@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://use.typekit.net/yjb8tes.css");
 body {
   margin: 0;
@@ -107,6 +108,12 @@ html {
   background-color: #f36d00;
 }
 
+.agenda-wrapper .agenda-repeater-wrapper .agenda-section, .agenda-wrapper .compere-wrapper {
+  background-color: #f9eadb;
+  padding: 20px;
+  margin: 25px 0;
+}
+
 h1 {
   font-family: azo-sans-web, sans-serif;
   font-weight: 900;
@@ -171,6 +178,44 @@ p {
     font-weight: 500;
     font-style: normal;
 */
+button.accordion {
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  height: auto;
+  transition: 0.2s;
+  font-size: 18px;
+  color: #878787;
+  padding: 0;
+  margin-top: 10px;
+  font-family: azo-sans-web, sans-serif;
+  background-color: #f9eadb;
+  width: 100%;
+  text-align: left;
+}
+button.accordion:after {
+  content: "+";
+}
+
+button.accordion.active, button.accordion:hover {
+  color: #1574f5;
+}
+
+button.accordion:after {
+  margin-left: 10px;
+}
+
+button.accordion-blue.active:after {
+  content: "−";
+}
+
+div.panel {
+  transition: max-height 0.5s ease-out;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f9eadb;
+}
+
 header {
   top: 0px;
   z-index: 1000;
@@ -373,6 +418,23 @@ header .nav-logo {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
+.agenda-wrapper .compere-wrapper {
+  display: flex;
+}
+.agenda-wrapper .compere-wrapper h3 {
+  margin-left: 40px;
+}
+.agenda-wrapper .icon {
+  height: 80px;
+  width: auto;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-section {
+  width: 30%;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-section .speaker-details {
+  padding-top: 30px;
+}
+
 .reg-wrapper {
   max-width: 600px;
   margin: 0 auto;

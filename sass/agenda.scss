@@ -1,0 +1,25 @@
+.agenda-wrapper {
+    .compere-wrapper {
+        display: flex;
+        @extend %orange-box;
+        h3 {
+            margin-left: 40px;
+        }
+    }
+
+    .icon {
+        height: 80px;
+        width: auto;
+    }
+
+    .agenda-repeater-wrapper {
+        .agenda-section {
+            width: 30%;
+            @extend %orange-box;
+
+            .speaker-details {
+                padding-top: 30px;
+            }
+        }
+    }
+}
