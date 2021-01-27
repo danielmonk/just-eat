@@ -1,0 +1,37 @@
+.reg-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label {
+    color: $grey;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    height: 40px;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: $grey;
+    border: 1px solid $orange;
+}
+
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_left select, .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_right select, .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
+    border: 1px solid $orange;
+}
+
+.gform_wrapper .field_description_below .gfield_consent_description, .gform_wrapper .gfield_consent_description {
+    line-height: 20px;
+}
+
+.gform_wrapper .field_description_below .gfield_consent_description, .gform_wrapper .gfield_consent_description {
+    border: 1px solid $orange;
+}
+
+#gform_submit_button_1 {
+    @extend %reg;
+    border: none;
+    width: auto;
+}
