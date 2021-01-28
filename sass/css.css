@@ -195,7 +195,7 @@ p {
   transition: 0.2s;
   font-size: 18px;
   color: #878787;
-  padding: 0 15px 15px;
+  padding: 10px 0;
   font-family: azo-sans-web, sans-serif;
   background-color: #f9eadb;
   width: 100%;
@@ -222,7 +222,7 @@ p {
   max-height: 0;
   overflow: hidden;
   background-color: #f9eadb;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 header {
@@ -443,17 +443,46 @@ header .nav-logo {
   justify-content: space-between;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper {
-  width: 30%;
+  width: 31%;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .agenda-content {
-  height: 170px;
   margin-bottom: 0;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .agenda-content h3 {
   margin-bottom: 0;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details {
-  padding-top: 30px;
+  margin-top: 30px;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(4) .agenda-content {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(4) .agenda-content .accordion {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(4) .agenda-content .accordion:after {
+  visibility: hidden;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(6) .agenda-content {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(6) .agenda-content .accordion {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(6) .agenda-content .accordion:after {
+  visibility: hidden;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(8) .agenda-content {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(8) .agenda-content .accordion {
+  background-color: #d6eae6;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(8) .agenda-content .accordion:after {
+  visibility: hidden;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(10) .agenda-content .accordion:after {
+  visibility: hidden;
 }
 
 .reg-wrapper {

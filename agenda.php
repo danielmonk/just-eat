@@ -32,17 +32,19 @@
                                 <h3><?php the_sub_field('time');?></h3>
                             </div>
                             <h3><?php the_sub_field('title');?></h3>
-                        </div>
 
-                        <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
-                        <div class="panel">
-                            <?php if( have_rows('speaker_repeater') ): ?>
-                                <?php while(have_rows('speaker_repeater')): the_row(); ?>
-                                    <img src="<?php the_sub_field('image');?>">
-                                    <h3><?php the_sub_field('name');?></h3>
-                                    <?php the_sub_field('content');?>
-                                <?php endwhile; ?>
-                            <?php endif; ?>
+                            <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
+                            <div class="panel">
+                                <?php if( have_rows('speaker_repeater') ): ?>
+                                    <?php while(have_rows('speaker_repeater')): the_row(); ?>
+                                        <div class="speaker-details">
+                                            <img src="<?php the_sub_field('image');?>">
+                                            <h3><?php the_sub_field('name');?></h3>
+                                            <?php the_sub_field('content');?>
+                                        </div>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+                            </div>
                         </div>
                     </div>
                 <?php endwhile; ?>
