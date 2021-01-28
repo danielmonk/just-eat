@@ -614,7 +614,18 @@ header .nav-logo {
 }
 
 .icon-wrapper {
-  padding: 25px 50px;
+  margin: 30px 0;
+}
+.icon-wrapper .reg-cta {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+.icon-wrapper .icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -629,17 +640,44 @@ header .nav-logo {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  .flex {
-    flex-wrap: wrap;
+  .event-map-desktop {
+    display: none;
+  }
+
+  .event-map-mob {
+    display: block;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .flex {
-    flex-wrap: wrap;
+  .event-map-desktop {
+    display: block;
+  }
+
+  .event-map-mob {
+    display: none;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .event-map-desktop {
+    display: block;
+  }
+
+  .event-map-mob {
+    display: none;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1201px) and (max-width: 10000px) {
+  .event-map-desktop {
+    display: block;
+  }
+
+  .event-map-mob {
+    display: none;
+  }
+}
 footer {
   background-color: #f36d00;
   height: 60px;
