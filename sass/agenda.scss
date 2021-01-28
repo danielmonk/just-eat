@@ -2,6 +2,7 @@
     .compere-wrapper {
         display: flex;
         @extend %orange-box;
+
         h3 {
             margin-left: 40px;
         }
@@ -13,9 +14,22 @@
     }
 
     .agenda-repeater-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
         .agenda-content-wrapper{
-            width: 28%;
-            @extend %orange-box;
+            width: 30%;
+
+            .agenda-content {
+                height: 170px;
+                @extend %orange-box;
+                margin-bottom: 0;
+
+                h3 {
+                    margin-bottom: 0;
+                }
+            }
 
             .speaker-details {
                 padding-top: 30px;

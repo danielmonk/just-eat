@@ -1,5 +1,5 @@
 
-button.accordion {
+.accordion {
     border: none;
     cursor: pointer;
     transition: 0.4s;
@@ -7,8 +7,7 @@ button.accordion {
     transition: .2s;
     font-size: 18px;
     color: $grey;
-    padding: 0;
-    margin-top: 10px;
+    padding: 0 15px 15px;
     font-family: azo-sans-web, sans-serif;
     background-color: $lightorange;
     width: 100%;
@@ -19,20 +18,22 @@ button.accordion {
     }
 }
 
-button.accordion.active, button.accordion:hover {
+.accordion.active, .accordion:hover {
     color: $blue;
 }
 
-button.accordion:after {
+.accordion:after {
     margin-left: 10px;
 }
 
-button.accordion-blue.active:after {
+.accordion.active:after {
     content: "\2212";
 }
 
-div.panel {
-    transition: max-height .5s ease-out;
+.panel {
+    transition: max-height 1s ease-out;
     max-height: 0;
     overflow: hidden;
+    background-color: $lightorange;
+    padding: 10px;
 }

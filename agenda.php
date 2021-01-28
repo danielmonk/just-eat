@@ -20,34 +20,33 @@
             <h3><?php the_field('compere_text');?></h3>
         </div>
 
+        
         <div class="agenda-repeater-wrapper">
-            <div class="flex">
-
-                    <?php if( have_rows('agenda_repeater') ): ?>
-                        <?php while(have_rows('agenda_repeater')): the_row(); ?>
-                            
-                            <div class="agenda-content-wrapper">
-                                <div class="flex">
-                                    <img src="<?php the_sub_field('icon');?>" class="icon">
-                                    <h3><?php the_sub_field('time');?></h3>
-                                </div>
-                                <h3><?php the_sub_field('title');?></h3>
-
-                                <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
-                                <div class="panel">
-                                    <?php if( have_rows('speaker_repeater') ): ?>
-                                        <?php while(have_rows('speaker_repeater')): the_row(); ?>
-                                            <img src="<?php the_sub_field('image');?>">
-                                            <h3><?php the_sub_field('name');?></h3>
-                                            <?php the_sub_field('content');?>
-                                        <?php endwhile; ?>
-                                    <?php endif; ?>
-                                </div>
+            <?php if( have_rows('agenda_repeater') ): ?>
+                <?php while(have_rows('agenda_repeater')): the_row(); ?>
+                    
+                    <div class="agenda-content-wrapper">
+                        <div class="agenda-content">
+                            <div class="flex">
+                                <img src="<?php the_sub_field('icon');?>" class="icon">
+                                <h3><?php the_sub_field('time');?></h3>
                             </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+                            <h3><?php the_sub_field('title');?></h3>
+                        </div>
 
-            </div>
+                        <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
+                        <div class="panel">
+                            <?php if( have_rows('speaker_repeater') ): ?>
+                                <?php while(have_rows('speaker_repeater')): the_row(); ?>
+                                    <img src="<?php the_sub_field('image');?>">
+                                    <h3><?php the_sub_field('name');?></h3>
+                                    <?php the_sub_field('content');?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
     </div>
 </div>
