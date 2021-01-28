@@ -6,4 +6,8 @@
 	<?php get_template_part('partials/event-map'); ?>
 </div>
 
+<div class="event-map-mob">
+	<?php get_template_part('partials/event-map-mob'); ?>
+</div>
+
 <?php get_footer(); ?>

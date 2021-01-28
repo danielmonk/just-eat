@@ -850,7 +850,7 @@
 	</g>
 </g>
 
-<a href="<?php the_field('game_link');?>" class="button hover-btn">
+<a href="<?php the_field('game_link');?>" class="button hover-btn bounce">
 <g id="GAME_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="418,420.5 463.4,420.5 482.7,458.6 503.2,420.5 548.5,420.5 548.5,321.6 418,321.6 		"/>
@@ -1156,6 +1156,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('mosaic_link');?>" class="button hover-btn bounce">
 <g id="MOSAIC_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="626.6,996.1 659.2,996.1 659.2,897.3 538.1,897.3 538.1,996.1 567.7,996.1 576.5,996.1 583.2,996.1 
@@ -1177,6 +1178,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Yoga_Icon">
 	<g>
@@ -1737,6 +1739,8 @@
 	</g>
 </g>
 
+
+<a href="<?php the_field('adapt_inspire_link');?>" class="button hover-btn bounce">
 <g id="YOGA_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="1282.1,204.6 1326,204.6 1326,88.5 1189.1,88.5 1189.1,204.9 1233.9,204.6 1236,204.6 1241.9,204.6 
@@ -1775,6 +1779,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Competition_icon">
 	<g>
@@ -1951,6 +1956,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('hub_link');?>" class="button hover-btn bounce">
 <g id="THE_HUB_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="1680.7,237 1746.8,237 1746.8,126.6 1540.4,126.6 1540.4,237.3 1607.9,237.1 1611.1,237.1 
@@ -2000,6 +2006,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Main_Stage_Icon">
 	<g>
@@ -2476,6 +2483,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('main_stage_link');?>" class="button hover-btn bounce">
 <g id="MAIN_STAGE_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="911.4,460.4 953.1,460.4 953.1,350 822.9,350 822.9,460.6 865.5,460.4 867.5,460.4 873.1,460.4 
@@ -2503,6 +2511,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Photo_Booth_Icon">
 	<g>
@@ -2816,6 +2825,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('photobooth_link');?>" class="button hover-btn bounce">
 <g id="PHOTO_BOOTH_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="1609.4,745.2 1651.1,745.2 1651.1,634.8 1520.9,634.8 1520.9,745.5 1563.5,745.2 1565.5,745.2 
@@ -2846,6 +2856,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Exhibitor_Icon">
 	<g>
@@ -3212,6 +3223,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('exhib_workshop_link');?>" class="button hover-btn bounce">
 <g id="EXHIBITOR_AREA_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="296.8,820.3 360.5,820.3 360.5,729.2 161.5,729.2 161.5,820.5 226.6,820.3 235.5,820.3 242.5,820.3 
@@ -3242,6 +3254,7 @@
 		</g>
 	</g>
 </g>
+</a>
 
 <g id="Meeting_Icon">
 	<g>
@@ -3751,6 +3764,7 @@
 	</g>
 </g>
 
+<a href="<?php the_field('meeting_link');?>" class="button hover-btn bounce">
 <g id="MEETING_ROOM_BUBBLE_GREY">
 	<g>
 		<polygon class="st30" points="1253,962.3 1297.3,962.3 1297.3,851.9 1159,851.9 1159,962.6 1204.3,962.4 1207.6,962.4 
@@ -3783,4 +3797,5 @@
 		</g>
 	</g>
 </g>
+</a>
 </svg>

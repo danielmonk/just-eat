@@ -1,13 +1,38 @@
-.button {
-    &:hover {
-        .st30 {
-            fill: $orange;
-            stroke: $white;
-            transition: .4s;
-        }
+.icon-wrapper {
+    padding: 25px 50px;
+}
 
-        .st31 {
-            fill: $white;
-        }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .event-map-desktop {
+        display: none;
     }
+
+     .event-map-mob {
+        display: block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+  .flex {
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px)
+and (max-width: 1200px) {
+   
 }

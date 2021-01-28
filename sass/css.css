@@ -123,6 +123,61 @@ html {
   margin: 25px 0;
 }
 
+.button:hover .st30 {
+  fill: #f36d00;
+  stroke: #fff;
+  transition: 0.4s;
+}
+.button:hover .st31 {
+  fill: #fff;
+}
+
+.hover-btn:hover {
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.hover-btn:hover .st55 {
+  fill: #878787;
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
 h1 {
   font-family: azo-sans-web, sans-serif;
   font-weight: 900;
@@ -558,15 +613,33 @@ header .nav-logo {
   width: auto;
 }
 
-.button:hover .st30 {
-  fill: #f36d00;
-  stroke: #fff;
-  transition: 0.4s;
-}
-.button:hover .st31 {
-  fill: #fff;
+.icon-wrapper {
+  padding: 25px 50px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event-map-desktop {
+    display: none;
+  }
+
+  .event-map-mob {
+    display: block;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
 footer {
   background-color: #f36d00;
   height: 60px;
