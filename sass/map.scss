@@ -1,0 +1,13 @@
+.button {
+    &:hover {
+        .st30 {
+            fill: $orange;
+            stroke: $white;
+            transition: .4s;
+        }
+
+        .st31 {
+            fill: $white;
+        }
+    }
+}
