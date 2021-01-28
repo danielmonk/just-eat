@@ -23,7 +23,6 @@
         <div class="agenda-repeater-wrapper">
             <div class="flex">
 
-                <div class="agenda-section">
                     <?php if( have_rows('agenda_repeater') ): ?>
                         <?php while(have_rows('agenda_repeater')): the_row(); ?>
                             
@@ -47,7 +46,6 @@
                             </div>
                         <?php endwhile; ?>
                     <?php endif; ?>
-                </div>
 
             </div>
         </div>

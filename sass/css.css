@@ -48,6 +48,15 @@ html {
   height: 400px;
 }
 
+.banner-two {
+  background-image: url(../images/bg5-01.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+}
+
 .heading-container {
   padding-top: 50px;
 }
@@ -108,7 +117,7 @@ html {
   background-color: #f36d00;
 }
 
-.agenda-wrapper .agenda-repeater-wrapper .agenda-section, .agenda-wrapper .compere-wrapper {
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper, .agenda-wrapper .compere-wrapper {
   background-color: #f9eadb;
   padding: 20px;
   margin: 25px 0;
@@ -213,7 +222,6 @@ div.panel {
   transition: max-height 0.5s ease-out;
   max-height: 0;
   overflow: hidden;
-  background-color: #f9eadb;
 }
 
 header {
@@ -428,10 +436,10 @@ header .nav-logo {
   height: 80px;
   width: auto;
 }
-.agenda-wrapper .agenda-repeater-wrapper .agenda-section {
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper {
   width: 28%;
 }
-.agenda-wrapper .agenda-repeater-wrapper .agenda-section .speaker-details {
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details {
   padding-top: 30px;
 }
 
