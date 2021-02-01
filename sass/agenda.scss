@@ -28,6 +28,7 @@
 
                 .flex {
                     justify-content: flex-start;
+                    flex-wrap: wrap;
                 }
 
                 img {
@@ -41,7 +42,13 @@
 
             .speaker-details {
                 margin-top: 30px;
-                width: 49%;
+                width: 50%;
+                text-align: center;
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
             }
 
             &:nth-of-type(4) {

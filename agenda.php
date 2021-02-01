@@ -41,16 +41,18 @@
                             <!--speaker dropdown-->
                             <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
                             <div class="panel">
-                                <?php if( have_rows('speaker_repeater') ): ?>
-                                    <?php while(have_rows('speaker_repeater')): the_row(); ?>
-                                        <!--speaker details in dropdown-->
-                                            <div class="speaker-details">
-                                                <img src="<?php the_sub_field('image');?>">
-                                                <h3><?php the_sub_field('name');?></h3>
-                                                <?php the_sub_field('content');?>
-                                            </div>
-                                    <?php endwhile; ?>
-                                <?php endif; ?>
+                                <div class="flex">
+                                    <?php if( have_rows('speaker_repeater') ): ?>
+                                        <?php while(have_rows('speaker_repeater')): the_row(); ?>
+                                            <!--speaker details in dropdown-->
+                                                <div class="speaker-details">
+                                                    <img src="<?php the_sub_field('image');?>">
+                                                    <h3><?php the_sub_field('name');?></h3>
+                                                    <?php the_sub_field('content');?>
+                                                </div>
+                                        <?php endwhile; ?>
+                                    <?php endif; ?>
+                                </div>
                             </div>
                         </div>
                     </div>

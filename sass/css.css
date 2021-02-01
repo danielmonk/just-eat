@@ -506,6 +506,7 @@ header .nav-logo {
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .agenda-content .flex {
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .agenda-content img {
   margin-right: 30px;
@@ -515,7 +516,13 @@ header .nav-logo {
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details {
   margin-top: 30px;
-  width: 49%;
+  width: 50%;
+  text-align: center;
+}
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(4) .agenda-content {
   background-color: #d6eae6;
