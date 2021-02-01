@@ -25,7 +25,7 @@
 
     <title>Just Eat |  WELCOME TO JET SET UK, 2021</title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=324" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=01022021" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
   </head>
 <body>

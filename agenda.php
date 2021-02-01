@@ -44,11 +44,11 @@
                                 <?php if( have_rows('speaker_repeater') ): ?>
                                     <?php while(have_rows('speaker_repeater')): the_row(); ?>
                                         <!--speaker details in dropdown-->
-                                        <div class="speaker-details">
-                                            <img src="<?php the_sub_field('image');?>">
-                                            <h3><?php the_sub_field('name');?></h3>
-                                            <?php the_sub_field('content');?>
-                                        </div>
+                                            <div class="speaker-details">
+                                                <img src="<?php the_sub_field('image');?>">
+                                                <h3><?php the_sub_field('name');?></h3>
+                                                <?php the_sub_field('content');?>
+                                            </div>
                                     <?php endwhile; ?>
                                 <?php endif; ?>
                             </div>
