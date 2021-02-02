@@ -20,6 +20,9 @@
         <div class="compere-wrapper">
             <img src="<?php the_field('compere_image');?>" class="icon">
             <h3><?php the_field('compere_text');?></h3>
+            <button class="accordion"><?php the_field('speaker_drop');?></button>
+            <div class="panel">
+            </div>
         </div>
 
         <!--contains the whole repeater-->

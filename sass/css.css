@@ -519,10 +519,14 @@ header .nav-logo {
   width: 50%;
   text-align: center;
 }
+.agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details h3 span {
+  font-weight: 400;
+}
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper .speaker-details img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 100%;
 }
 .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper:nth-of-type(4) .agenda-content {
   background-color: #d6eae6;
@@ -580,6 +584,42 @@ header .nav-logo {
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .agenda-wrapper .agenda-repeater-wrapper .agenda-content-wrapper {
     width: 49%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+.live-stream-wrapper {
+  margin-top: 50px;
+}
+.live-stream-wrapper .live-stream {
+  flex-basis: 70%;
+}
+.live-stream-wrapper .chat {
+  flex-basis: 25%;
+}
+.live-stream-wrapper .chat p {
+  margin: 0;
+}
+.live-stream-wrapper .reg-cta {
+  width: 200px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .live-stream-wrapper .live-stream {
+    flex-basis: 100%;
+  }
+  .live-stream-wrapper .chat {
+    flex-basis: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .live-stream-wrapper .live-stream {
+    flex-basis: 100%;
+  }
+  .live-stream-wrapper .chat {
+    flex-basis: 100%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
