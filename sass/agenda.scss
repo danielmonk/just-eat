@@ -3,6 +3,10 @@
         display: flex;
         @extend %orange-box;
 
+        .icon {
+            height: 200px;
+        }
+
         h3 {
             margin-left: 40px;
         }

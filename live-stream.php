@@ -22,13 +22,14 @@
 
             <div class="chat">
                 <?php the_field('chat');?>
-                <a href="" class="reg-cta">Submit a question</a>
             </div>
         </div>
 
-        
+        <button class="accordion">Submit a question</button>
+                <div class="panel">
+                    <?php the_field('question');?>
+                </div>
     </div>
 </div>
-
 
 <?php get_footer(); ?>

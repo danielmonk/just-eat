@@ -94,7 +94,7 @@ html {
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
-#gform_submit_button_1, .reg-cta {
+#gform_submit_button_1, .live-stream-wrapper .accordion, .reg-cta {
   background-color: #1574f5;
   border-radius: 10px;
   padding: 15px 50px 15px;
@@ -113,7 +113,7 @@ html {
   display: block;
   transition: 0.4s;
 }
-#gform_submit_button_1:hover, .reg-cta:hover {
+#gform_submit_button_1:hover, .live-stream-wrapper .accordion:hover, .reg-cta:hover {
   background-color: #f36d00;
 }
 
@@ -485,6 +485,9 @@ header .nav-logo {
 .agenda-wrapper .compere-wrapper {
   display: flex;
 }
+.agenda-wrapper .compere-wrapper .icon {
+  height: 200px;
+}
 .agenda-wrapper .compere-wrapper h3 {
   margin-left: 40px;
 }
@@ -600,8 +603,11 @@ header .nav-logo {
 .live-stream-wrapper .chat p {
   margin: 0;
 }
-.live-stream-wrapper .reg-cta {
-  width: 200px;
+.live-stream-wrapper .chat .reg-cta {
+  width: 100%;
+}
+.live-stream-wrapper .accordion {
+  width: 100%;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -624,6 +630,16 @@ header .nav-logo {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
+.question header {
+  display: none;
+}
+.question p {
+  margin: 0;
+}
+.question footer {
+  display: none;
+}
+
 .reg-wrapper {
   max-width: 600px;
   margin: 0 auto;
