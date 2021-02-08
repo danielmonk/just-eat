@@ -482,8 +482,6 @@
 				// Case: SVG Field
 				if( get_row_layout() == 'svg_field' ):
 
-					echo "test2";
-
 					$name = get_sub_field('name');
 					$svg_code = get_sub_field('svg_code_desktop', false, false);
 					// Do something...
@@ -535,12 +533,12 @@
 	<?php
 
 		// check value exists
-		if( have_rows('svg_flexible_content') ):
+		if( have_rows('svg_event_map') ):
 
 			echo '<div class="icon-wrapper">';
 
 			// loop through rows
-			while ( have_rows('svg_flexible_content') ) : the_row();
+			while ( have_rows('svg_event_map') ) : the_row();
 
 
 				// Case: SVG Field
@@ -603,12 +601,14 @@
 <?php
 
 	// check value exists
-	if( have_rows('svg_flexible_content') ):
+	if( have_rows('svg_event_map') ):
 
 		// loop through rows
-		while ( have_rows('svg_flexible_content') ) : the_row();
+		while ( have_rows('svg_event_map') ) : the_row();
+
 			// Case: Download Field
 			if( get_row_layout() == 'link_field' ): 
+
 
 				$name = get_sub_field('name');
 				$link_type = get_sub_field('link_type');
@@ -620,7 +620,8 @@
 				$count = 0;
 
 				// check which kind of link to use
-				if($link_type === 'modal'){ ?>
+				if($link_type === 'modal'){ 
+					?>
 					<div id="popup-<?php echo $name; ?>" class="overlay">
 						<div class="popup">
 							<div class="popup__top">
