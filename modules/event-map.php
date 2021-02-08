@@ -502,7 +502,7 @@
 
 					// check which kind of link to use
 					if($link_type === 'modal'){
-						$link = '#popup-'.$name;
+						$linkURL = '#popup-'.$name;
 					} else {
 						$link = $page_link;
 						$linkURL = $page_link['url'];

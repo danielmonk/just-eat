@@ -1,5 +1,4 @@
-<div class="section video-section">
-    <!-- VIDEO SECTION FLEXI CONTENT --> 
+<!-- VIDEO SECTION FLEXI CONTENT --> 
 	<?php
 
         // check value exists
@@ -7,6 +6,9 @@
 
             // loop through rows
             while ( have_rows('video_section') ) : the_row();
+            $videoID = get_sub_field('video_id');
+
+            echo '<div class="section video-section" id="' . $videoID .'">';
 
 
                 // Case: Video Content
@@ -25,6 +27,8 @@
 
 
                 endif;
+
+            echo '</div>';
 
             endwhile;
 

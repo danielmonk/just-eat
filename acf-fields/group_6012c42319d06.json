@@ -35,6 +35,37 @@
                 "id": ""
             },
             "layouts": {
+                "layout_6021766664bfb": {
+                    "key": "layout_6021766664bfb",
+                    "name": "hero_component",
+                    "label": "Hero Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6021767164bfc",
+                            "label": "Hero Component",
+                            "name": "hero_component",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_602176259bfa6"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_601d1435871f6": {
                     "key": "layout_601d1435871f6",
                     "name": "svg_event_map",
@@ -73,10 +104,10 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_601d5a546d0d2",
+                            "key": "field_60216f42731ad",
                             "label": "Video Section",
                             "name": "video_section",
-                            "type": "flexible_content",
+                            "type": "clone",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -85,69 +116,13 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "layouts": {
-                                "layout_601d5a5ea45e9": {
-                                    "key": "layout_601d5a5ea45e9",
-                                    "name": "video_content",
-                                    "label": "Video Content",
-                                    "display": "block",
-                                    "sub_fields": [
-                                        {
-                                            "key": "field_601d5a806d0d3",
-                                            "label": "Video Content",
-                                            "name": "video_content",
-                                            "type": "wysiwyg",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "default_value": "",
-                                            "tabs": "all",
-                                            "toolbar": "full",
-                                            "media_upload": 1,
-                                            "delay": 0
-                                        }
-                                    ],
-                                    "min": "",
-                                    "max": ""
-                                },
-                                "layout_601d5a8b6d0d4": {
-                                    "key": "layout_601d5a8b6d0d4",
-                                    "name": "video_embed",
-                                    "label": "Video Embed",
-                                    "display": "block",
-                                    "sub_fields": [
-                                        {
-                                            "key": "field_601d5a8f6d0d5",
-                                            "label": "Video Embed",
-                                            "name": "video_embed",
-                                            "type": "wysiwyg",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "default_value": "",
-                                            "tabs": "text",
-                                            "media_upload": 1,
-                                            "toolbar": "full",
-                                            "delay": 0
-                                        }
-                                    ],
-                                    "min": "",
-                                    "max": ""
-                                }
-                            },
-                            "button_label": "Add Row",
-                            "min": "",
-                            "max": ""
+                            "clone": [
+                                "group_60216ea0ddd92"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
                         }
                     ],
                     "min": "",
@@ -176,5 +151,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1612787471
+    "modified": 1612805763
 }
