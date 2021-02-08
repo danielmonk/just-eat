@@ -475,6 +475,7 @@
 		// check value exists
 		if( have_rows('svg_event_map') ):
 
+
 			// loop through rows
 			while ( have_rows('svg_event_map') ) : the_row();
 
@@ -503,13 +504,14 @@
 					if($link_type === 'modal'){
 						$link = '#popup-'.$name;
 					} else {
-						$link = $page_link['url'];
+						$link = $page_link;
+						$linkURL = $page_link['url'];
 						$link_target = $link['target'] ? $link['target'] : '_self';
 						$link_target_html = "target=" . esc_attr($link_target) ."";
 					}
 
 					// echo html
-					echo '<a href="'. $link .'" class="button hover-btn bounce" ' . $link_target_html .'>' . $link_code . '</a>';
+					echo '<a href="'. $linkURL .'" class="button hover-btn bounce" ' . $link_target_html .'>' . $link_code . '</a>';
 
 					// increment count
 					$count++;
