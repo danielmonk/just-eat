@@ -1,0 +1,180 @@
+{
+    "key": "group_6012c42319d06",
+    "title": "Page Content",
+    "fields": [
+        {
+            "key": "field_601d663f78711",
+            "label": "Locked Page?",
+            "name": "locked_page",
+            "type": "true_false",
+            "instructions": "Tick this to hide the page to accounts that aren't logged in, and replace it with a login box.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_601d13e9e58fb",
+            "label": "Page Content",
+            "name": "page_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_601d1435871f6": {
+                    "key": "layout_601d1435871f6",
+                    "name": "svg_event_map",
+                    "label": "SVG Event Map",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60212dac5e74b",
+                            "label": "SVG Event Map",
+                            "name": "svg_event_map_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60212d7e6c2f5"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_601d5a4b6d0d1": {
+                    "key": "layout_601d5a4b6d0d1",
+                    "name": "video_section",
+                    "label": "Video Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_601d5a546d0d2",
+                            "label": "Video Section",
+                            "name": "video_section",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layouts": {
+                                "layout_601d5a5ea45e9": {
+                                    "key": "layout_601d5a5ea45e9",
+                                    "name": "video_content",
+                                    "label": "Video Content",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_601d5a806d0d3",
+                                            "label": "Video Content",
+                                            "name": "video_content",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "delay": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                },
+                                "layout_601d5a8b6d0d4": {
+                                    "key": "layout_601d5a8b6d0d4",
+                                    "name": "video_embed",
+                                    "label": "Video Embed",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_601d5a8f6d0d5",
+                                            "label": "Video Embed",
+                                            "name": "video_embed",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "tabs": "text",
+                                            "media_upload": 1,
+                                            "toolbar": "full",
+                                            "delay": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            },
+                            "button_label": "Add Row",
+                            "min": "",
+                            "max": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Field",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612787471
+}
