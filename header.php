@@ -25,7 +25,6 @@
 
     <title>Just Eat |  WELCOME TO JET SET UK, 2021</title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=0202202136" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
   </head>
 <body>
@@ -34,10 +33,10 @@
     <div class="container">
         <div class="flex">
 
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/justeat-logo.svg" class="nav-logo" alt=""></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/justeat-logo.svg" class="nav-logo" alt=""></a>
 
             <nav class="nav">
-            <a class="skip" href="#menu"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bar.svg" class="btn" alt="menu bar"></a>
+            <a class="skip" href="#menu"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/bar.svg" class="btn" alt="menu bar"></a>
                  <?php wp_nav_menu(array(
                 'container' => false,
                 'menu' => __( 'Main Menu', 'textdomain' ),
