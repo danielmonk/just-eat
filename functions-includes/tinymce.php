@@ -67,7 +67,7 @@ function custom_elements_mce_button() {
   
   // Function for new button
   function custom_elements_tinymce_plugin( $plugin_array ) {
-	$plugin_array['custom_elements_mce_button'] = get_template_directory_uri() .'/js/admin/form-insertion.js';
+	$plugin_array['custom_elements_mce_button'] = get_template_directory_uri() .'/assets/js/admin/form-insertion.js';
 	return $plugin_array;
   }
   
