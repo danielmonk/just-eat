@@ -1,8 +1,10 @@
 <?php
 
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300' );
+//@ini_set( 'upload_max_size' , '64M' );
+//@ini_set( 'post_max_size', '64M');
+//@ini_set( 'max_execution_time', '300' );
+
+add_filter( ‘wp_image_editors’, function() { return array( ‘WP_Image_Editor_GD’ ); } );
 
 
 //Sets all POSTS to be Ordered ALPHABETICALLY

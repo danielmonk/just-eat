@@ -39,7 +39,7 @@
                             <h3><?php the_sub_field('title');?></h3>
 
                             <!--speaker dropdown-->
-                            <button class="accordion"><?php the_sub_field('speaker_drop');?></button>
+                            <button class="accordion button"><?php the_sub_field('speaker_drop');?></button>
                             <div class="panel">
                                 <div class="flex">
                                     <?php if( have_rows('speaker_repeater') ): ?>

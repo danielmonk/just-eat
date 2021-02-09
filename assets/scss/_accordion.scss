@@ -1,4 +1,21 @@
+.accordion{
+    width:100%;
+    cursor: pointer;
+    transition: 0.4s;
+    height: auto;
+    transition: .2s;
+    padding:15px 30px;
+}
 
+.panel {
+    transition: max-height 1s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    background-color: $lightorange;
+    padding: 0 10px;
+}
+
+/*
 .accordion {
     border: none;
     cursor: pointer;
@@ -37,3 +54,4 @@
     background-color: $lightorange;
     padding: 0 10px;
 }
+*/

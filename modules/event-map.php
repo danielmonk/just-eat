@@ -1,5 +1,5 @@
 <!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<div class="event-map event-map--desktop">
+<section class="event-map event-map--desktop">
 	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		viewBox="0 0 1920 1303" style="enable-background:new 0 0 1920 1303;" xml:space="preserve">
 	<style type="text/css">

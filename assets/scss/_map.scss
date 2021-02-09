@@ -16,6 +16,9 @@
 }
 
 .event-map{
+    padding:0;
+    margin:0;
+    margin-top:0!important;
     &--desktop{
         display:none;
         @media (min-width: $breakpoint-md) {

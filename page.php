@@ -9,7 +9,7 @@
     if($locked_page):
         if (is_user_logged_in()): ?>
 
-        <main class="main container" role="main" id="main-content">
+        <main class="main" role="main" id="main-content">
 
             <?php if($standard_content) : ?>
 
@@ -31,7 +31,7 @@
         endif;
     else: ?>
 
-        <main class="main container" role="main" id="main-content">
+        <main class="main" role="main" id="main-content">
 
             <?php if($standard_content) : ?>
 

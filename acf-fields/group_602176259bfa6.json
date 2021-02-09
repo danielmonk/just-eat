@@ -1,6 +1,6 @@
 {
     "key": "group_602176259bfa6",
-    "title": "Hero Component",
+    "title": "Hero Section",
     "fields": [
         {
             "key": "field_6021762b823a7",
@@ -63,5 +63,5 @@
     "hide_on_screen": "",
     "active": false,
     "description": "",
-    "modified": 1612805701
+    "modified": 1612866374
 }

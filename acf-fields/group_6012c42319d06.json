@@ -37,14 +37,14 @@
             "layouts": {
                 "layout_6021766664bfb": {
                     "key": "layout_6021766664bfb",
-                    "name": "hero_component",
-                    "label": "Hero Component",
+                    "name": "hero_section",
+                    "label": "Hero Section",
                     "display": "block",
                     "sub_fields": [
                         {
                             "key": "field_6021767164bfc",
-                            "label": "Hero Component",
-                            "name": "hero_component",
+                            "label": "Hero Section",
+                            "name": "hero_section",
                             "type": "clone",
                             "instructions": "",
                             "required": 0,
@@ -127,6 +127,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_602277da5189d": {
+                    "key": "layout_602277da5189d",
+                    "name": "noonah_section",
+                    "label": "Noonah Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_602277e15189e",
+                            "label": "Noonah Section",
+                            "name": "noonah_section",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_602276db7bda2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Field",
@@ -151,5 +182,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1612805763
+    "modified": 1612871702
 }
