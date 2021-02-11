@@ -108,4 +108,9 @@ function se_remove_menu_items() {
 // }
 // add_action('admin_init', 'remove_textarea');
 
+
+if (!current_user_can(‘manage_options’)) {
+	add_filter(‘show_admin_bar’, ‘__return_false’);
+	}
+
 ?>

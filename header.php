@@ -31,7 +31,7 @@
 
 <header>
     <div class="container">
-        <div class="flex">
+        <div class="flex centered">
 
         <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/justeat-logo.svg" class="nav-logo" alt=""></a>
 

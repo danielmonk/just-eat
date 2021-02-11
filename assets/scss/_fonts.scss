@@ -6,11 +6,15 @@ h1 {
     font-style: normal;
     text-transform: uppercase;
     color: $white;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 36px;
+    line-height: 36px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0;
+    @media (min-width: $breakpoint-md) {
+        font-size: 70px;
+        line-height: 70px;
+    }
 }
 
 h2 {

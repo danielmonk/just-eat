@@ -33,6 +33,7 @@
       load_module('noonah-section', array(
         'noonah_event_name' => get_sub_field('noonah_event_name'),
         'noonah_event_type' => get_sub_field('noonah_event_type'),
+        'noonah_game_code' => get_sub_field('noonah_game_code'),
       ));
       ?>
 

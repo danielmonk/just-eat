@@ -1,0 +1,29 @@
+.login-section{
+    margin-top:0;
+    #loginform{
+        p{
+            display:flex;
+            width:100%;
+            flex-wrap:wrap;
+            @media (min-width: $breakpoint-md) {
+                flex-wrap:nowrap;
+            }
+            label, input{
+                width:100%;
+                margin-top:10px;
+                @media (min-width: $breakpoint-md) {
+                    flex: 1;
+                    margin-top:0;
+                }
+                &[type='checkbox']{
+                    width:auto;
+                }
+            }
+            .button{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+     }
+    }

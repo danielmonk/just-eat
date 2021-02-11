@@ -2,6 +2,8 @@
 
 <?php get_header(); ?>
 
+<?php if (is_user_logged_in()): ?>
+
 <div class="banner-two">
     <div class="container">
         <div class="heading-container">
@@ -31,5 +33,9 @@
                 </div>
     </div>
 </div>
+
+<?php else:
+    echo '<section class="login-section"><div class="reg-wrapper"><div class="container"><div class="gf_browser_chrome gform_wrapper">' . do_shortcode("[wp_login_form]") . '</div></div></div></section>';
+endif; ?>
 
 <?php get_footer(); ?>

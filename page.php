@@ -15,7 +15,9 @@
 
                 <div class="section">
                     <div class="main-content">
+                    <div class="container">
                         <?php the_content(); ?>
+                    </div>
                     </div>
                 </div>
                 
@@ -27,7 +29,7 @@
         </main>
     
         <?php else:
-            echo do_shortcode("[wp_login_form]");
+            echo '<section class="login-section"><div class="reg-wrapper"><div class="container"><div class="gf_browser_chrome gform_wrapper">' . do_shortcode("[wp_login_form]") . '</div></div></div></section>';
         endif;
     else: ?>
 
@@ -37,7 +39,9 @@
 
                 <div class="section">
                     <div class="main-content">
+                        <div class="container">
                         <?php the_content(); ?>
+                        </div>
                     </div>
                 </div>
                 

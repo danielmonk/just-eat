@@ -35,6 +35,10 @@ html {
 .flex {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    &.centered{
+        align-items: center;
+    }
 }
 
 .banner {
@@ -114,8 +118,10 @@ and (max-width: 1200px) {
    
 }
 
-iframe.question{
-    .nav{
-        display:none;
+iframe{
+    &.question{
+        .nav, #wpadminbar{
+            display:none;
+        }
     }
 }

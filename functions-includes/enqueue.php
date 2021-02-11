@@ -19,7 +19,7 @@ function theme_enqueue_scripts() {
 	$script_ver = filemtime( get_template_directory() . '/assets/dist/js/scripts.min.js' );
 
 	if(!is_admin()) {
-		wp_deregister_script( 'jquery' );
+		//wp_deregister_script( 'jquery' );
 
 		wp_enqueue_script( 
 			'ajax-pagination',  
